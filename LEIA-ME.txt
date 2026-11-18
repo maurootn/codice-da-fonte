@@ -1,0 +1,43 @@
+CÓDICE DA FONTE - VERSÃO ANDROID
+
+Esta pasta é um projeto pronto para virar app de Android, igual aos guias
+anteriores. Usa uma conta gratuita do GitHub (github.com).
+
+PASSO COMUM: ENVIAR PARA O GITHUB
+1. Em github.com, clique em "New repository".
+   Nome sugerido: codice-da-fonte. Marque "Public". Crie.
+2. Na página do repositório, clique em "uploading an existing file".
+3. Arraste TODO o conteúdo desta pasta e clique em "Commit changes".
+   A pasta .github é oculta e o navegador costuma não enviá-la. Se o
+   Actions não mostrar o processo, crie o arquivo à mão:
+   "Add file" > "Create new file", nome: .github/workflows/gerar-apk.yml,
+   e cole o conteúdo do arquivo gerar-apk.yml (está em .github/workflows).
+
+FORMA 1 - APK (app instalado de verdade)
+4. Abra a aba "Actions". O processo "Gerar APK" roda sozinho
+   (uns 5 minutos). Se pedir, clique em "I understand... enable".
+5. Quando ficar verde, clique nele e baixe "CodiceDaFonte-APK".
+6. Abra o .zip no celular e toque em "app-debug.apk".
+   Permita instalar apps desta origem quando o Android pedir.
+7. O ícone "Códice da Fonte" aparece na tela inicial.
+
+FORMA 2 - APP PELO CHROME (sem APK)
+4. No repositório: Settings > Pages > Branch "main", pasta "/docs" > Save.
+5. Em 1 ou 2 minutos aparece o endereço do site. Abra no Chrome do celular.
+6. Menu (três pontos) > "Instalar app" ou "Adicionar à tela inicial".
+   Depois da primeira abertura, funciona offline.
+
+NO APP
+- Na capa, escolha Original Sin ou Original Sin 2.
+- Barra inferior: Painel, Conquistas, Roteiro, Mapa e Mais.
+- Em "Mais": Plano de runs, Bifurcações, Builds, Extras e DLC, Notas,
+  Backup e o botão de tema. No modo "Já tenho conquistas", Meu progresso
+  também fica em Mais.
+- O botão voltar do Android volta para a aba anterior antes de fechar.
+
+TRAZER O PROGRESSO
+No Códice da Fonte do Claude (ou do PC), abra Backup > Copiar código.
+No celular, abra Mais > Backup, cole e toque em "Restaurar do campo".
+No APK, "Copiar código" abre o menu de compartilhar do Android.
+
+Os ícones das conquistas são para uso pessoal.
